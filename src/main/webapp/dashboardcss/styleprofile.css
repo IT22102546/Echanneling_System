@@ -1,0 +1,104 @@
+@charset "UTF-8";
+#main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #ececec;
+    overflow-y: auto;
+  }
+  
+  #main .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+  }
+  
+  #main .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #main .profile h1 a,
+  #main .profile h1 a:hover {
+    color: #060606;
+    text-decoration: none;
+  }
+  
+  #main .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #main .profile .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+  }
+  @media (max-width: 1199px) {
+    #header {
+      left: -300px;
+    }
+  
+    #main {
+      margin-left: 0;
+    }
+  
+    .container,
+    .container-fluid {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+  
+button{
+  width: 200px;
+}
+  #btn-prof{
+    background:#3b7cf4 ;
+    padding: 15 50 15 50 ;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+    border-style: none;
+    
+
+  }
+
+  #btn-prof:hover{
+    background:#4682f3 ;
+  }
+  
+  #btn-prof1{
+	padding: 15 50 15 50 ;
+    background-color: #D80032;
+    color:white;
+    border-radius: 40px;
+    margin-left: 40px;
+    border-style: none;
+  }
+  
+   #btn-prof1:hover{
+    background:#C70039 ;
+  }
